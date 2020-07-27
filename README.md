@@ -1,5 +1,8 @@
 # @tib/duration
 
+[![Build](https://gitr.net/tib/duration/badges/master/pipeline.svg)](https://gitr.net/tib/duration)
+[![Coverage](https://gitr.net/tib/duration/badges/master/coverage.svg)](https://gitr.net/tib/duration)
+
 > convert a human readable duration to ms
 
 ## Installation
