@@ -18,7 +18,7 @@ import {duration} from '@tib/duration';
 or CommonJS:
 
 ```js
-var {duration} = require('@tib/duration');
+const {duration} = require('@tib/duration');
 ```
 
 ## API
@@ -28,15 +28,15 @@ var {duration} = require('@tib/duration');
 convert `str` to ms
 
 ```js
-var ns = duration('1ns'); // => 1 / 1e6
-var μs = duration('1μs'); // => 1 / 1000
-var ms = duration('1ms'); // => 1
-var s = duration('1s'); // => ms * 1000
-var m = duration('1m'); // => s * 60
-var h = duration('1h'); // => m * 60
-var d = duration('1d'); // => h * 24
-var w = duration('1w'); // => d * 7
-var y = duration('1y'); // => d * 365.25
+const ns = duration('1ns'); // => 1 / 1e6
+const μs = duration('1μs'); // => 1 / 1000
+const ms = duration('1ms'); // => 1
+const s = duration('1s'); // => ms * 1000
+const m = duration('1m'); // => s * 60
+const h = duration('1h'); // => m * 60
+const d = duration('1d'); // => h * 24
+const w = duration('1w'); // => d * 7
+const y = duration('1y'); // => d * 365.25
 ```
 
 It can also handle basic compound expressions
@@ -88,7 +88,7 @@ Available unit types are:
 - months
 - years (y, yr)
 
-And its easy to add more
+and it's easy to add more
 
 The output format can also be defined
 
