@@ -1,6 +1,6 @@
 {
   "name": "@tib/duration",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "convert a human readable duration to ms",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
