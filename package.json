@@ -51,5 +51,9 @@
     "dist",
     "src",
     "!*/__tests__"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com/",
+    "access": "public"
+  }
 }
