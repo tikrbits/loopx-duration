@@ -1,4 +1,4 @@
-# @tib/duration
+# @loopx/duration
 
 [![Build](https://gitr.net/tibjs/duration/badges/master/pipeline.svg)](https://gitr.net/tibjs/duration)
 [![Coverage](https://gitr.net/tibjs/duration/badges/master/coverage.svg)](https://gitr.net/tibjs/duration)
@@ -7,18 +7,18 @@
 
 ## Installation
 
-`npm install @tib/duration`
+`npm install @loopx/duration`
 
 then in your app:
 
 ```js
-import {duration} from '@tib/duration';
+import {duration} from '@loopx/duration';
 ```
 
 or CommonJS:
 
 ```js
-const {duration} = require('@tib/duration');
+const {duration} = require('@loopx/duration');
 ```
 
 ## API

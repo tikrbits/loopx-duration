@@ -1,4 +1,4 @@
-import {expect} from '@tib/testlab';
+import {expect} from '@loopback/testlab';
 import {duration} from '..';
 
 const {ns, h, b, s, ms, d, y, m} = duration;
